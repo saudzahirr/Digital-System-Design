@@ -1,7 +1,7 @@
 module D_latch(clk, D, Q);
 
 input clk, D;
-output Q;
+output reg Q;
 
 always @(clk, D)
 begin
